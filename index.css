@@ -1,0 +1,14 @@
+#timer {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  #message {
+    color: red;
+  }
+
+  #timerSeconds {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+ 
