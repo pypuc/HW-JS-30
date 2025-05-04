@@ -11,4 +11,18 @@
     margin-bottom: 20px;
   }
   
- 
+  #timerSeconds.animate {
+    animation: blink 0.5s infinite;
+    color: red;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+  }
+  
+  #startButton {
+    font-size: 1.2em;
+    padding: 10px 20px;
+  }
